@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>gr.skroutz</groupId>
 	<artifactId>elasticsearch-skroutz-greekstemmer</artifactId>
-	<version>7.7.0.5-SNAPSHOT</version>
+	<version>8.7.1-SNAPSHOT</version>
 	<description>Greek stemmer for ElasticSearch</description>
 	<inceptionYear>2012</inceptionYear>
 
@@ -18,10 +18,10 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<elasticsearch.version>7.7.0</elasticsearch.version>
-		<lucene.version>8.5.1</lucene.version>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<elasticsearch.version>8.7.1</elasticsearch.version>
+		<lucene.version>9.5.0</lucene.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
 	<developers>

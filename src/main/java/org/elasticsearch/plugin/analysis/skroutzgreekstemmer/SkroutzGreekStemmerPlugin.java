@@ -17,6 +17,6 @@ public class SkroutzGreekStemmerPlugin extends Plugin implements AnalysisPlugin 
 	// since we only have one in our plugin.
 	@Override
 	public Map<String, AnalysisProvider<TokenFilterFactory>> getTokenFilters() {
-		return singletonMap("skroutz_stem_greek", SkroutzGreekStemmerTokenFilterFactory::new);
+		return singletonMap("greek_stemming_filter", SkroutzGreekStemmerTokenFilterFactory::new);
 	}
 }
