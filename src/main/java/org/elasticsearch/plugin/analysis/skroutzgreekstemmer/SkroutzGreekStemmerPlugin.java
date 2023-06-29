@@ -11,6 +11,10 @@ import java.util.Map;
 
 import static java.util.Collections.singletonMap;
 
+/**
+ * Plugin class for Skroutz Greek Stemmer analysis plugin.
+ * Implements the necessary methods to integrate with Elasticsearch.
+ */
 public class SkroutzGreekStemmerPlugin extends Plugin implements AnalysisPlugin {
 
 	// Use singletonMap to register our token filter,

@@ -23,6 +23,11 @@ public class SkroutzGreekStemTokenFilter extends TokenFilter {
 	private final CharTermAttribute termAtt = addAttribute(CharTermAttribute.class);
 	private final KeywordAttribute keywordAttr = addAttribute(KeywordAttribute.class);
 
+	/**
+     * Constructs a new SkroutzGreekStemTokenFilter.
+     *
+     * @param input The input token stream
+     */
 	public SkroutzGreekStemTokenFilter(TokenStream input) {
 		super(input);
 	}

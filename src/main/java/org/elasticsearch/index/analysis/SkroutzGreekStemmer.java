@@ -54,6 +54,13 @@ import org.apache.lucene.analysis.CharArraySet;
  */
 public class SkroutzGreekStemmer {
 
+  /**
+   * Performs stemming on the given character array.
+   * 
+   * @param s   The character array to perform stemming on.
+   * @param len The length of the character array.
+   * @return The stemmed result.
+   */
   public int stem(char s[], int len) {
     // Too short
     if (len < 3) return len;
